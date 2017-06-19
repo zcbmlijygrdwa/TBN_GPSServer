@@ -91,7 +91,7 @@ public class GPSServer {
         @Override
         public void run() {
             OutputStream outputStream;
-            String msgReply = "Hello from Server, you are #" + cnt+"\n You lucky number today is "+Math.random();
+            String msgReply = "Hello from Server, you are #" + cnt+"\n +Location = "+activity.cuurenLocation.toString();//You lucky number today is "+Math.random();
 
             try {
                 outputStream = hostThreadSocket.getOutputStream();

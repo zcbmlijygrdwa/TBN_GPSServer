@@ -15,7 +15,16 @@
         android:layout_gravity="center_horizontal"
         android:text="The Next Best View | GPS Server"
         android:textStyle="bold" />
-
+    <fragment
+        android:id="@+id/detail_map"
+        class="zhenyuyang.ucsb.edu.tbn_gpsserver.myMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+    <TextView
+        android:id="@+id/info_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
     <TextView
         android:id="@+id/infoip"
         android:layout_width="match_parent"
